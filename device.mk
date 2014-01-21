@@ -15,7 +15,7 @@
 #
 
 ## (2) Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/jfltevzw/jfltevzw-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/jf/jfltevzw/jfltevzw-vendor.mk)
 
 # Disable MSB for GPS
 NEEDS_GPS_MSB_DISABLED := true
